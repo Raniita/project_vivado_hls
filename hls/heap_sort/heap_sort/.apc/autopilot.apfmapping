@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="heap_sort.cpp" path="D:\trabajo_DSE_EnrLuc\sources\heap_sort.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="heap_sort_tb.cpp" path="D:\trabajo_DSE_EnrLuc\sources\heap_sort_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

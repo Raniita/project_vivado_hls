@@ -1,0 +1,31 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="swap_hw" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="buildMaxHeap_hw" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="heap_sort" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="array_out"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="heap_sort" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="array"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="heap_sort" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="return"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="heap_sort" label="">
+<pragma name="UNROLL"/>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>

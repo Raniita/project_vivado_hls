@@ -1,0 +1,7 @@
+vhdl xil_defaultlib "AESL_sim_pkg.vhd"
+vhdl xil_defaultlib "AESL_axi_slave_AXILiteS.vhd"
+vhdl xil_defaultlib "heap_sort.autotb.vhd"
+vhdl xil_defaultlib "heap_sort.vhd"
+vhdl xil_defaultlib "heap_sort_AXILiteS_s_axi.vhd"
+vhdl xil_defaultlib "heap_sort_swap_hw.vhd"
+

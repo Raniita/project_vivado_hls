@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'bubble_sort/array' to 'bubble_sort/array_r' to avoid the conflict with HDL keywords or other object names." projectName="bubble_sort" solutionName="solution1" date="2022-05-11T13:09:21.942+0200" type="Warning"/>
+        <logs message="WARNING: %XIL_PA_NO_XILINX_OVERRIDE% is set to 1.&#xD;&#xA;         When %XIL_PA_NO_XILINX_OVERRIDE% is enabled&#xD;&#xA;         %XILINX%, %MYXILINX%, and %PATH% must be manually set." projectName="bubble_sort" solutionName="solution1" date="2022-05-11T13:09:17.042+0200" type="Warning"/>
+        <logs message="WARNING: %XILINX% contains multiple entries. Setting&#xD;&#xA;         %XIL_PA_NO_XILINX_OVERRIDE% to 1.&#xD;&#xA; " projectName="bubble_sort" solutionName="solution1" date="2022-05-11T13:09:16.233+0200" type="Warning"/>
+      </synLog>
+      <simLog>
+        <logs message="WARNING: %XIL_PA_NO_XILINX_OVERRIDE% is set to 1.&#xD;&#xA;         When %XIL_PA_NO_XILINX_OVERRIDE% is enabled&#xD;&#xA;         %XILINX%, %MYXILINX%, and %PATH% must be manually set.&#xD;&#xA;&#xD;&#xA;****** xsim v2016.2 (64-bit)&#xD;&#xA;  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016&#xD;&#xA;  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016&#xD;&#xA;    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.&#xD;&#xA;&#xD;&#xA;source xsim.dir/bubble_sort/xsim_script.tcl&#xD;&#xA;# xsim {bubble_sort} -autoloadwcfg -tclbatch {bubble_sort.tcl}&#xD;&#xA;Vivado Simulator 2016.2&#xD;&#xA;Time resolution is 1 ps&#xD;&#xA;source bubble_sort.tcl&#xD;&#xA;## run all&#xD;&#xA;Note: simulation done!&#xD;&#xA;Time: 48335 ns  Iteration: 1  Process: /apatb_bubble_sort_top/generate_sim_done_proc  File: D:/trabajo_DSE_EnrLuc/hls/bubble_sort/bubble_sort/solution1/sim/vhdl/bubble_sort.autotb.vhd&#xD;&#xA;Failure: NORMAL EXIT (note: failure is to force the simulator to stop)&#xD;&#xA;Time: 48335 ns  Iteration: 1  Process: /apatb_bubble_sort_top/generate_sim_done_proc  File: D:/trabajo_DSE_EnrLuc/hls/bubble_sort/bubble_sort/solution1/sim/vhdl/bubble_sort.autotb.vhd&#xD;&#xA;$finish called at time : 48335 ns&#xD;&#xA;## quit" projectName="bubble_sort" solutionName="solution1" date="2022-05-11T13:09:47.873+0200" type="Warning"/>
+        <logs message="WARNING: %XILINX% contains multiple entries. Setting&#xD;&#xA;         %XIL_PA_NO_XILINX_OVERRIDE% to 1.&#xD;&#xA; " projectName="bubble_sort" solutionName="solution1" date="2022-05-11T13:09:45.525+0200" type="Warning"/>
+        <logs message="WARNING: %XIL_PA_NO_XILINX_OVERRIDE% is set to 1.&#xD;&#xA;         When %XIL_PA_NO_XILINX_OVERRIDE% is enabled&#xD;&#xA;         %XILINX%, %MYXILINX%, and %PATH% must be manually set." projectName="bubble_sort" solutionName="solution1" date="2022-05-11T13:09:43.182+0200" type="Warning"/>
+        <logs message="WARNING: %XILINX% contains multiple entries. Setting&#xD;&#xA;         %XIL_PA_NO_XILINX_OVERRIDE% to 1.&#xD;&#xA; " projectName="bubble_sort" solutionName="solution1" date="2022-05-11T13:09:42.045+0200" type="Warning"/>
+        <logs message="WARNING: %XIL_PA_NO_XILINX_OVERRIDE% is set to 1.&#xD;&#xA;         When %XIL_PA_NO_XILINX_OVERRIDE% is enabled&#xD;&#xA;         %XILINX%, %MYXILINX%, and %PATH% must be manually set." projectName="bubble_sort" solutionName="solution1" date="2022-05-11T13:09:30.805+0200" type="Warning"/>
+        <logs message="WARNING: %XILINX% contains multiple entries. Setting&#xD;&#xA;         %XIL_PA_NO_XILINX_OVERRIDE% to 1.&#xD;&#xA; " projectName="bubble_sort" solutionName="solution1" date="2022-05-11T13:09:29.980+0200" type="Warning"/>
+      </simLog>
+      <mgLog/>
+      <packageLog>
+        <logs message="CRITICAL WARNING: [IMPL 213-28] Failed to generate IP.&#xD;&#xA;command 'ap_source' returned error code&#xD;&#xA;    while executing&#xD;&#xA;&quot;source D:/trabajo_DSE_EnrLuc/hls/bubble_sort/bubble_sort/solution1/export.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main D:/trabajo_DSE_EnrLuc/hls/bubble_sort/bubble_sort/solution1/export.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="bubble_sort" solutionName="solution1" date="2022-05-11T13:10:02.739+0200" type="Warning"/>
+        <logs message="WARNING: %XIL_PA_NO_XILINX_OVERRIDE% is set to 1.&#xD;&#xA;         When %XIL_PA_NO_XILINX_OVERRIDE% is enabled&#xD;&#xA;         %XILINX%, %MYXILINX%, and %PATH% must be manually set.&#xD;&#xA;&#xD;&#xA;****** Vivado v2016.2 (64-bit)&#xD;&#xA;  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016&#xD;&#xA;  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016&#xD;&#xA;    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.&#xD;&#xA;&#xD;&#xA;source run_ippack.tcl -notrace&#xD;&#xA;bad lexical cast: source type value could not be interpreted as target&#xD;&#xA;    while executing&#xD;&#xA;&quot;rdi::set_property core_revision 2205111309 {component component_1}&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;set_property core_revision $Revision $core&quot;&#xD;&#xA;    (file &quot;run_ippack.tcl&quot; line 799)" projectName="bubble_sort" solutionName="solution1" date="2022-05-11T13:10:02.122+0200" type="Warning"/>
+        <logs message="WARNING: %XILINX% contains multiple entries. Setting&#xD;&#xA;         %XIL_PA_NO_XILINX_OVERRIDE% to 1.&#xD;&#xA; " projectName="bubble_sort" solutionName="solution1" date="2022-05-11T13:09:54.464+0200" type="Warning"/>
+        <logs message="WARNING: %XIL_PA_NO_XILINX_OVERRIDE% is set to 1.&#xD;&#xA;         When %XIL_PA_NO_XILINX_OVERRIDE% is enabled&#xD;&#xA;         %XILINX%, %MYXILINX%, and %PATH% must be manually set." projectName="bubble_sort" solutionName="solution1" date="2022-05-11T13:09:52.828+0200" type="Warning"/>
+        <logs message="WARNING: %XILINX% contains multiple entries. Setting&#xD;&#xA;         %XIL_PA_NO_XILINX_OVERRIDE% to 1.&#xD;&#xA; " projectName="bubble_sort" solutionName="solution1" date="2022-05-11T13:09:52.032+0200" type="Warning"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

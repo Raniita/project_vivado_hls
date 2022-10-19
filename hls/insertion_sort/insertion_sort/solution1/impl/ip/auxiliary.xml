@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="insertion_sort" xd:componentRef="insertion_sort" xd:initiationInterval="1791" xd:clockPeriod="10.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="array[]" xd:originalName="array" xd:direction="in" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x100" xd:arraySize="40" xd:dataWidth="32"/>
+  <xd:arg xd:name="array_out[]" xd:originalName="array_out" xd:direction="inout" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:offset="0x200" xd:arraySize="40" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="232" xd:worst-case="1790" xd:average-case="1030"/>
+  <xd:resourceEstimates xd:LUT="1660" xd:FF="877" xd:BRAM="4" xd:DSP="0"/>
+</xd:acceleratorMap>

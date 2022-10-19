@@ -1,0 +1,179 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'heap_sort'" level="0">
+<item name = "Date">Sat Jan 11 11:41:36 2020
+</item>
+<item name = "Version">2016.2 (Build 1577090 on Thu Jun 02 16:59:10 MDT 2016)</item>
+<item name = "Project">heap_sort</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020clg484-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00, 6.48, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">?, ?, ?, ?, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+<column name="grp_heap_sort_swap_hw_fu_990">heap_sort_swap_hw, 0, 0, 1, 1, function</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- Loop 1">?, ?, ?, -, -, 39, no</column>
+<column name=" + SWAP">?, ?, 4, -, -, ?, no</column>
+<column name="- Loop 2">?, ?, ?, -, -, 39, no</column>
+<column name=" + Loop 2.1">?, ?, 6, -, -, ?, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="DSP">-, -, -, -</column>
+<column name="Expression">-, -, 0, 316</column>
+<column name="FIFO">-, -, -, -</column>
+<column name="Instance">4, -, 196, 180</column>
+<column name="Memory">-, -, -, -</column>
+<column name="Multiplexer">-, -, -, 442</column>
+<column name="Register">-, -, 413, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200</specialColumn>
+<specialColumn name="Utilization (%)">1, 0, ~0, 1</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="heap_sort_AXILiteS_s_axi_U">heap_sort_AXILiteS_s_axi, 4, 0, 196, 180</column>
+<column name="grp_heap_sort_swap_hw_fu_990">heap_sort_swap_hw, 0, 0, 0, 0</column>
+</table>
+</item>
+<item name = "DSP48"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="7">Name, BRAM_18K, FF, LUT, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="i_1_fu_1162_p2">+, 0, 0, 6, 6, 2</column>
+<column name="i_2_fu_1141_p2">+, 0, 0, 6, 6, 1</column>
+<column name="index_1_fu_1189_p2">+, 0, 0, 32, 1, 32</column>
+<column name="tmp_13_i_fu_1069_p2">+, 0, 0, 32, 32, 2</column>
+<column name="tmp_tr_i_fu_1037_p2">+, 0, 0, 6, 6, 2</column>
+<column name="p_neg1_i_fu_1083_p2">-, 0, 0, 32, 1, 32</column>
+<column name="p_neg_t1_i_fu_1103_p2">-, 0, 0, 32, 1, 32</column>
+<column name="or_cond_fu_1224_p2">and, 0, 0, 1, 1, 1</column>
+<column name="exitcond_i_fu_1026_p2">icmp, 0, 0, 3, 6, 6</column>
+<column name="grp_fu_1016_p2">icmp, 0, 0, 11, 32, 32</column>
+<column name="tmp_10_fu_1219_p2">icmp, 0, 0, 11, 32, 32</column>
+<column name="tmp_11_i_fu_1058_p2">icmp, 0, 0, 11, 32, 32</column>
+<column name="tmp_15_i_fu_1136_p2">icmp, 0, 0, 11, 32, 32</column>
+<column name="tmp_1_fu_1199_p2">icmp, 0, 0, 11, 32, 32</column>
+<column name="tmp_2_fu_1151_p2">icmp, 0, 0, 3, 6, 1</column>
+<column name="index_fu_1178_p2">or, 0, 0, 44, 32, 1</column>
+<column name="j_3_fu_1123_p3">select, 0, 0, 32, 1, 32</column>
+<column name="p_s_fu_1203_p3">select, 0, 0, 32, 1, 32</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">102, 59, 1, 59</column>
+<column name="array_out_address0">96, 55, 6, 330</column>
+<column name="array_out_d0">32, 4, 32, 128</column>
+<column name="array_r_address0">72, 41, 6, 246</column>
+<column name="grp_heap_sort_swap_hw_fu_990_x_read">32, 3, 32, 96</column>
+<column name="i_reg_955">6, 2, 6, 12</column>
+<column name="j2_i_reg_946">32, 2, 32, 64</column>
+<column name="j_1_reg_979">32, 2, 32, 64</column>
+<column name="j_2_reg_934">6, 2, 6, 12</column>
+<column name="j_reg_967">32, 2, 32, 64</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">58, 0, 58, 0</column>
+<column name="array_out_addr_16_reg_1493">6, 0, 6, 0</column>
+<column name="array_out_addr_43_reg_1539">6, 0, 6, 0</column>
+<column name="array_out_addr_44_reg_1544">6, 0, 6, 0</column>
+<column name="array_out_addr_47_reg_1456">6, 0, 6, 0</column>
+<column name="array_out_addr_48_reg_1466">6, 0, 6, 0</column>
+<column name="array_out_load_8_reg_1471">32, 0, 32, 0</column>
+<column name="i_1_cast_reg_1503">6, 0, 32, 26</column>
+<column name="i_1_reg_1498">6, 0, 6, 0</column>
+<column name="i_cast_reg_1485">6, 0, 32, 26</column>
+<column name="i_reg_955">6, 0, 6, 0</column>
+<column name="index_1_reg_1521">31, 0, 32, 1</column>
+<column name="index_reg_1508">31, 0, 32, 1</column>
+<column name="j2_i_reg_946">32, 0, 32, 0</column>
+<column name="j_1_reg_979">32, 0, 32, 0</column>
+<column name="j_2_reg_934">6, 0, 6, 0</column>
+<column name="j_3_reg_1461">32, 0, 32, 0</column>
+<column name="j_i_cast1_reg_1434">6, 0, 32, 26</column>
+<column name="j_reg_967">32, 0, 32, 0</column>
+<column name="or_cond_reg_1554">1, 0, 1, 0</column>
+<column name="reg_1006">32, 0, 32, 0</column>
+<column name="reg_1011">32, 0, 32, 0</column>
+<column name="tmp_10_reg_1549">1, 0, 1, 0</column>
+<column name="tmp_11_i_reg_1452">1, 0, 1, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="s_axi_AXILiteS_AWVALID">in, 1, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_AWREADY">out, 1, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_AWADDR">in, 10, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_WVALID">in, 1, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_WREADY">out, 1, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_WDATA">in, 32, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_WSTRB">in, 4, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_ARVALID">in, 1, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_ARREADY">out, 1, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_ARADDR">in, 10, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_RVALID">out, 1, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_RREADY">in, 1, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_RDATA">out, 32, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_RRESP">out, 2, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_BVALID">out, 1, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_BREADY">in, 1, s_axi, AXILiteS, array</column>
+<column name="s_axi_AXILiteS_BRESP">out, 2, s_axi, AXILiteS, array</column>
+<column name="ap_clk">in, 1, ap_ctrl_hs, heap_sort, return value</column>
+<column name="ap_rst_n">in, 1, ap_ctrl_hs, heap_sort, return value</column>
+<column name="interrupt">out, 1, ap_ctrl_hs, heap_sort, return value</column>
+</table>
+</item>
+</section>
+</profile>
